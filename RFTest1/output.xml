@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210405 16:53:19.951" rpa="false">
+<suite id="s1" name="RFTestSuite1" source="D:\Automation\projects\RFTest1\Test1\RFTestSuite1.robot">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Suite Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.042" level="INFO">I am inside Suite Setup</msg>
+<status status="PASS" starttime="20210405 16:53:21.042" endtime="20210405 16:53:21.042"></status>
+</kw>
+<test id="s1-t1" name="My Second test case">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.043" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20210405 16:53:21.043" endtime="20210405 16:53:21.043"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside second test case</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.044" level="INFO">I am inside second test case</msg>
+<status status="PASS" starttime="20210405 16:53:21.044" endtime="20210405 16:53:21.044"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.045" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:21.044" endtime="20210405 16:53:21.045"></status>
+</kw>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20210405 16:53:21.042" endtime="20210405 16:53:21.045" critical="yes"></status>
+</test>
+<test id="s1-t2" name="MY Third test case">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.047" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20210405 16:53:21.047" endtime="20210405 16:53:21.047"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside third test case</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.047" level="INFO">I am inside third test case</msg>
+<status status="PASS" starttime="20210405 16:53:21.047" endtime="20210405 16:53:21.047"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.048" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:21.048" endtime="20210405 16:53:21.048"></status>
+</kw>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20210405 16:53:21.046" endtime="20210405 16:53:21.049" critical="yes"></status>
+</test>
+<test id="s1-t3" name="My Fourth Test case">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.053" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20210405 16:53:21.053" endtime="20210405 16:53:21.053"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>Regression2</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.053" level="INFO">Set tag 'Regression2'.</msg>
+<status status="PASS" starttime="20210405 16:53:21.053" endtime="20210405 16:53:21.054"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside fourth test case</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.054" level="INFO">I am inside fourth test case</msg>
+<status status="PASS" starttime="20210405 16:53:21.054" endtime="20210405 16:53:21.054"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.055" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:21.054" endtime="20210405 16:53:21.055"></status>
+</kw>
+<tags>
+<tag>Regression2</tag>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20210405 16:53:21.052" endtime="20210405 16:53:21.055" critical="yes"></status>
+</test>
+<test id="s1-t4" name="My Fifth test case-EMS Pre-SIT">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.059" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20210405 16:53:21.059" endtime="20210405 16:53:21.059"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>Regression1</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.060" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210405 16:53:21.060" endtime="20210405 16:53:21.060"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>Regression1</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.061" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210405 16:53:21.061" endtime="20210405 16:53:21.061"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210405 16:53:21.062" level="INFO">Opening browser 'chrome' to base url 'https://ems.presit.na.jnj.com/#/'.</msg>
+<status status="PASS" starttime="20210405 16:53:21.062" endtime="20210405 16:53:29.569"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+<arg>Wait for the screen to load</arg>
+</arguments>
+<msg timestamp="20210405 16:53:34.597" level="INFO">Slept 5 seconds</msg>
+<msg timestamp="20210405 16:53:34.597" level="INFO">Wait for the screen to load</msg>
+<status status="PASS" starttime="20210405 16:53:29.576" endtime="20210405 16:53:34.597"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=loginfmt</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210405 16:53:34.732" level="INFO">Typing text 'sreji@its.jnj.com' into text field 'name=loginfmt'.</msg>
+<status status="PASS" starttime="20210405 16:53:34.731" endtime="20210405 16:53:35.261"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=idSIButton9</arg>
+</arguments>
+<msg timestamp="20210405 16:53:35.262" level="INFO">Clicking button 'id=idSIButton9'.</msg>
+<status status="PASS" starttime="20210405 16:53:35.262" endtime="20210405 16:53:35.620"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+<arg>loading page after clicking NEXT button</arg>
+</arguments>
+<msg timestamp="20210405 16:53:45.642" level="INFO">Slept 10 seconds</msg>
+<msg timestamp="20210405 16:53:45.642" level="INFO">loading page after clicking NEXT button</msg>
+<status status="PASS" starttime="20210405 16:53:35.624" endtime="20210405 16:53:45.642"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is run by %{username} on %{os}</arg>
+</arguments>
+<msg timestamp="20210405 16:53:45.730" level="INFO">This is run by SReji on Windows_NT</msg>
+<status status="PASS" starttime="20210405 16:53:45.730" endtime="20210405 16:53:45.730"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210405 16:53:45.808" endtime="20210405 16:53:49.522"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:49.523" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:49.522" endtime="20210405 16:53:49.523"></status>
+</kw>
+<doc>EMS presit url login test case
+Access to list/dictionary using index/key in '@{CRED}[0]' is deprecated since RF 3.2.
+Use scalar notation instead i.e: ${collection}[id/key]</doc>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20210405 16:53:21.058" endtime="20210405 16:53:49.523" critical="yes"></status>
+</test>
+<test id="s1-t5" name=" MySixthTestCase">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20210405 16:53:49.526" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20210405 16:53:49.526" endtime="20210405 16:53:49.526"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside sixth test case</arg>
+</arguments>
+<msg timestamp="20210405 16:53:49.527" level="INFO">I am inside sixth test case</msg>
+<status status="PASS" starttime="20210405 16:53:49.526" endtime="20210405 16:53:49.527"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:49.527" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:49.527" endtime="20210405 16:53:49.527"></status>
+</kw>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<status status="PASS" starttime="20210405 16:53:49.525" endtime="20210405 16:53:49.528" critical="yes"></status>
+</test>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Suite Teardown</arg>
+</arguments>
+<msg timestamp="20210405 16:53:49.530" level="INFO">I am inside Suite Teardown</msg>
+<status status="PASS" starttime="20210405 16:53:49.530" endtime="20210405 16:53:49.530"></status>
+</kw>
+<status status="PASS" starttime="20210405 16:53:19.962" endtime="20210405 16:53:49.530"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0">Critical Tests</stat>
+<stat pass="5" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Regression2</stat>
+<stat pass="5" fail="0">Sanity</stat>
+</tag>
+<suite>
+<stat pass="5" fail="0" id="s1" name="RFTestSuite1">RFTestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
